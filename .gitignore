@@ -1,0 +1,14 @@
+# Abaikan seluruh folder File Materi beserta isinya
+File Materi/
+File Materi/*
+
+# Abaikan pola file tes di folder mana pun
+*.pdf
+Tes.py
+Tes1.py
+*Tes*
+*tes*
+
+# Cache Python & Jupyter
+.ipynb_checkpoints/
+__pycache__/
